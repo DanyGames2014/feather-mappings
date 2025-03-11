@@ -617,7 +617,7 @@ c	net/minecraft/unmapped/C_3635204
 	f	Lnet/minecraft/unmapped/C_3635204;	f_1662678	STICKY_PISTON	
 	f	Lnet/minecraft/unmapped/C_3635204;	f_2004321	PISTON	
 	f	Lnet/minecraft/unmapped/C_3635204;	f_7707315	REDSTONE_WIRE	
-	f	I	f_2648035	sprite	
+	f	I	f_2648035	textureId	
 	f	Lnet/minecraft/unmapped/C_3635204;	f_7092302	CAULDRON	
 	f	Lnet/minecraft/unmapped/C_3635204;	f_8971165	BEACON	
 	f	Lnet/minecraft/unmapped/C_3635204;	f_4245728	HOPPER	
@@ -632,21 +632,21 @@ c	net/minecraft/unmapped/C_3635204
 	f	Lnet/minecraft/unmapped/C_3635204;	f_8813641		QUARTZ_BLOCK
 	f	Lnet/minecraft/unmapped/C_3635204;	f_2854249		QUARTZ_STAIRS
 	f	Lnet/minecraft/unmapped/C_3635204;	f_1752890		ACTIVATOR_RAIL
-	f	Lnet/minecraft/unmapped/C_5307437;	f_2648035		sprite
+	f	Lnet/minecraft/unmapped/C_5307437;	f_2648035		textureId
 	m	(IILnet/minecraft/unmapped/C_8554894;)V	<init>	<init>	
 		p	1		id	
-		p	2		sprite	
+		p	2		textureId	
 		p	3		material	
-	m	(Lnet/minecraft/unmapped/C_2627205;IIII)I	m_6954536	getSprite	
+	m	(Lnet/minecraft/unmapped/C_2627205;IIII)I	m_6954536	getTexture	
 		p	1		world	
 		p	2		x	
 		p	3		y	
 		p	4		z	
 		p	5		face	
-	m	(II)I	m_5024410	getSprite	
+	m	(II)I	m_5024410	getTexture	
 		p	1		face	
 		p	2		metadata	
-	m	(I)I	m_9597800	getSprite	
+	m	(I)I	m_9597800	getTexture	
 		p	1		face	
 	m	()I	m_4073353	getTickRate	
 	m	(Lnet/minecraft/unmapped/C_3906126;III)V	m_5037482	onExploded	
@@ -661,16 +661,16 @@ c	net/minecraft/unmapped/C_3635204
 		p	3		y	
 		p	4		z	
 		p	5		entity	
-	m	(Lnet/minecraft/unmapped/C_2627205;IIII)Lnet/minecraft/unmapped/C_5307437;	m_6954536		getSprite
+	m	(Lnet/minecraft/unmapped/C_2627205;IIII)Lnet/minecraft/unmapped/C_5307437;	m_6954536		getTexture
 		p	1			world
 		p	2			x
 		p	3			y
 		p	4			z
 		p	5			face
-	m	(II)Lnet/minecraft/unmapped/C_5307437;	m_5024410		getSprite
+	m	(II)Lnet/minecraft/unmapped/C_5307437;	m_5024410		getTexture
 		p	1			face
 		p	2			metadata
-	m	(I)Lnet/minecraft/unmapped/C_5307437;	m_9597800		getSprite
+	m	(I)Lnet/minecraft/unmapped/C_5307437;	m_9597800		getTexture
 		p	1			face
 	m	(Lnet/minecraft/unmapped/C_3906126;)I	m_4073353		getTickRate
 		p	1			world

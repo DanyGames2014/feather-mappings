@@ -337,13 +337,13 @@ c	net/minecraft/unmapped/C_3635204
 		p	3			y
 		p	4			z
 		p	5			face
-	m	(Lnet/minecraft/unmapped/C_3906126;IIII)Z	m_8016910		canBePlaced
+	m	(Lnet/minecraft/unmapped/C_3906126;IIII)Z	m_8016910		canPlaceAt
 		p	1			world
 		p	2			x
 		p	3			y
 		p	4			z
 		p	5			face
-	m	()Z	m_1944525	isSolid	isSolidRender
+	m	()Z	m_1944525	isSolid	isOpaque
 c	net/minecraft/unmapped/C_3688914
 	f	I	f_2672442		blockData
 	f	Z	f_5235372		player

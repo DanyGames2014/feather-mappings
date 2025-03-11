@@ -342,7 +342,7 @@ c	net/minecraft/unmapped/C_3635204
 		p	4			z
 	m	(Ljava/lang/String;)Ljava/lang/Object;	m_1722799		m_1722799
 		p	1			p_1
-	m	(Ljava/lang/String;)Lnet/minecraft/unmapped/C_3635204;	m_0168197	setKey	m_0168197
+	m	(Ljava/lang/String;)Lnet/minecraft/unmapped/C_3635204;	m_0168197	setTranslationKey	m_0168197
 		c	Sets this block's translation and registry key.\n\n<p>\nNOTE: this method should only be used during the block's creation before it is registered.	
 	m	()Ljava/lang/String;	m_4535639	getTranslationKey	m_4535639
 c	net/minecraft/unmapped/C_3682532

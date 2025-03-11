@@ -214,7 +214,7 @@ c	net/minecraft/unmapped/C_3635204
 		p	5		metadata	
 	m	(Lnet/minecraft/unmapped/C_5009044;)F	m_5044046	getMiningSpeed	
 		p	1		player	
-	m	(II)I	m_5024410	getSprite	
+	m	(II)I	m_5024410	getTexture	
 		p	1		face	
 		p	2		metadata	
 	m	(Lnet/minecraft/unmapped/C_3906126;III)V	m_9342401	onSteppedOn	

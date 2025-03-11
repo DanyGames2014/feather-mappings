@@ -461,20 +461,20 @@ c	net/minecraft/unmapped/C_3635204
 	f	Lnet/minecraft/unmapped/C_3635204;	f_9950365		POWERED_REPEATER
 	f	Lnet/minecraft/unmapped/C_3635204;	f_6983350		CHEST_LOCKED_APRIL_FOOLS
 	m	()Z	m_6626541	isTranslucent	
-	m	(Lnet/minecraft/unmapped/C_3906126;IIII)V	m_7011942	afterMinedByPlayer	
+	m	(Lnet/minecraft/unmapped/C_3906126;IIII)V	m_7011942	afterBreak	
 		p	1		world	
 		p	2		x	
 		p	3		y	
 		p	4		z	
 		p	5		metadata	
-	m	(Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_5009044;IIII)V	m_7011942		afterMinedByPlayer
+	m	(Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_5009044;IIII)V	m_7011942		afterBreak
 		p	1			world
 		p	2			player
 		p	3			x
 		p	4			y
 		p	5			z
 		p	6			metadata
-	m	()Ljava/lang/String;	m_0757767		getName
+	m	()Ljava/lang/String;	m_0757767		getTranslatedName
 c	net/minecraft/unmapped/C_3699792
 	f	Z	f_6467597		overlayMessageTinted
 	m	(Ljava/lang/String;)V	m_9394394		translate

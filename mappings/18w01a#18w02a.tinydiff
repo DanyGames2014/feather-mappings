@@ -342,16 +342,16 @@ c	net/minecraft/unmapped/C_3635204
 	m	(F)Lnet/minecraft/unmapped/C_3635204;	m_8795806	setBlastResistance	
 		c	Sets this block's resistance.\n\n<p>\nNOTE: this method should only be used during the block's creation before it is registered.	
 		p	1		blastResistance	
-	m	(F)Lnet/minecraft/unmapped/C_3635204;	m_2068904	setStrength	
-		c	Sets this block's mining speed and updates its blast resistance if needed.\nA block's blast resistance cannot be less than 5 times its mining speed.\n\n<p>\nNOTE: this method should only be used during the block's creation before it is registered.	
-		p	1		strength	
+	m	(F)Lnet/minecraft/unmapped/C_3635204;	m_2068904	setHardness	
+		c	Sets this block's hardness and updates its blast resistance if needed.\nA block's blast resistance cannot be less than 5 times its hardness.\n\n<p>\nNOTE: this method should only be used during the block's creation before it is registered.	
+		p	1		hardness	
 	m	(Z)Lnet/minecraft/unmapped/C_3635204;	m_3405751	setTicksRandomly	
 		c	Sets whether this block accepts random ticks. Random ticks are mostly used by plants\nand crops to update growth, but some other blocks are affected by random ticks as well,\nlike e.g. leaves (to update decay).\nNote that while this field might be set to true the block might not do anything with the random tick.\n\n<p>\nNOTE: this method should only be used during the block's creation before it is registered.	
 		p	1		ticksRandomly	
 	m	()Lnet/minecraft/unmapped/C_3635204;	m_9330041	disableStats	
 		c	Disables tracking by stats for this block.\n\n<p>\nNOTE: this method should only be used during the block's creation before it is registered.	
 	m	()Lnet/minecraft/unmapped/C_3635204;	m_9657999	setUnbreakable	
-		c	Sets this block as unbreakable by setting its strength to -1. Note that this changes both\nthe block's mining speed and its blast resistance.\n\n<p>\nNOTE: this method should only be used during the block's creation before it is registered.	
+		c	Sets this block as unbreakable by setting its hardness to -1. Note that this changes both\nthe block's hardness and its blast resistance.\n\n<p>\nNOTE: this method should only be used during the block's creation before it is registered.	
 	m	()Lnet/minecraft/unmapped/C_6619871;	m_4801896	getCreativeModeTab	
 	m	(Lnet/minecraft/unmapped/C_6619871;)Lnet/minecraft/unmapped/C_3635204;	m_6737467	setCreativeModeTab	
 		c	Sets this block's creative inventory tab.\n\n<p>\nNOTE: this method should only be used during the block's creation before it is registered.	

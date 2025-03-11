@@ -28,7 +28,7 @@ c	net/minecraft/unmapped/C_3635204
 	f	[Z	f_8396961	IS_SOLID	
 	f	[Z	f_1548894	IS_TRANSLUCENT	
 	f	[Z	f_5383163	IS_CUBE	
-	f	I	f_2859729	miningTime	
+	f	I	f_2859729	hardness	
 	f	Z	f_8002233	f_8002233	
 	m	()Z	m_1538589	isCube	
 	m	()I	m_1396444	getMiningTime	

@@ -34,12 +34,12 @@ c	net/minecraft/unmapped/C_2682589	net/minecraft/block/LiquidSourceBlock
 c	net/minecraft/unmapped/C_3635204
 	m	()Z	m_8205566	ticksRandomly	
 		c	Returns whether this block accepts random ticks. Random ticks are mostly used by plants\nand crops to update growth, but some other blocks are affected by random ticks as well,\nlike e.g. leaves (to update decay).\nNote that while this field might be set to true the block might not do anything with the random tick.	
-	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_3030937;)Z	m_6275112	canRayTrace	
+	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_3030937;)Z	m_6275112	hasCollision	
 		p	1		p_1	
 		p	2		p_2	
 	m	(Lnet/minecraft/unmapped/C_2441996;)Z	m_8205566		ticksRandomly
 		p	1			state
-	m	(Lnet/minecraft/unmapped/C_2441996;)Z	m_6275112		canRayTrace
+	m	(Lnet/minecraft/unmapped/C_2441996;)Z	m_6275112		hasCollision
 		p	1			state
 	m	(Lnet/minecraft/unmapped/C_2441996;)Lnet/minecraft/unmapped/C_1534020;	m_8039579		getFluidState
 		p	1			state

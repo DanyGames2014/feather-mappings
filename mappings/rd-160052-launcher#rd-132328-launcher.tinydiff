@@ -23,7 +23,7 @@ c	net/minecraft/unmapped/C_3635204
 	f	Lnet/minecraft/unmapped/C_3635204;	f_0374553	PLANKS	
 	f	Lnet/minecraft/unmapped/C_3635204;	f_0804334	GRASS	COBBLESTONE
 	f	Lnet/minecraft/unmapped/C_3635204;	f_5708490	STONE	GRASS
-	m	(I)I	m_9597800	getSprite	
+	m	(I)I	m_9597800	getTexture	
 		p	1		face	
 	m	()Z	m_1944525	isSolid	
 	m	(II)V	<init>	<init>	

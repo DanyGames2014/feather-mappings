@@ -314,8 +314,8 @@ c	net/minecraft/unmapped/C_3002588	net/minecraft/inventory/slot/CraftingResultSl
 		p	5			x
 		p	6			y
 c	net/minecraft/unmapped/C_3635204
-	f	Ljava/lang/String;	f_5614465	key	
-	m	(Ljava/lang/String;)Lnet/minecraft/unmapped/C_3635204;	m_0168197	setKey	
+	f	Ljava/lang/String;	f_5614465	translationKey	
+	m	(Ljava/lang/String;)Lnet/minecraft/unmapped/C_3635204;	m_0168197	setTranslationKey	
 		c	Sets this block's translation and registry key.\n\n<p>\nNOTE: this method should only be used during the block's creation before it is registered.	
 		p	1		key	
 	m	()Ljava/lang/String;	m_4535639	getTranslationKey	

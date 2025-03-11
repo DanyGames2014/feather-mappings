@@ -301,7 +301,7 @@ c	net/minecraft/unmapped/C_3635204
 		p	2		x	
 		p	3		y	
 		p	4		z	
-	m	(Lnet/minecraft/unmapped/C_3906126;IIILnet/minecraft/unmapped/C_5009044;)Z	m_2543653	use	
+	m	(Lnet/minecraft/unmapped/C_3906126;IIILnet/minecraft/unmapped/C_5009044;)Z	m_2543653	onUse	
 		p	1		world	
 		p	2		x	
 		p	3		y	
@@ -326,7 +326,7 @@ c	net/minecraft/unmapped/C_3635204
 		p	3			y
 		p	4			z
 		p	5			size
-	m	(Lnet/minecraft/unmapped/C_3906126;IIILnet/minecraft/unmapped/C_5009044;IFFF)Z	m_2543653		use
+	m	(Lnet/minecraft/unmapped/C_3906126;IIILnet/minecraft/unmapped/C_5009044;IFFF)Z	m_2543653		onUse
 		c		Handles a player interacting with this block, i.e. a player holding the <i>use</i> key\nwhile looking at this block.\n\n@return whether the interaction was consumed,\ni.e. whether further processing of the use action should be blocked.
 		p	1			world
 		p	2			x

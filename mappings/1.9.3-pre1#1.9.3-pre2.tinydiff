@@ -164,7 +164,7 @@ c	net/minecraft/unmapped/C_3624347
 		p	1			location
 		p	2			category
 c	net/minecraft/unmapped/C_3635204
-	m	(Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6707278;Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_3635204;)V	m_6252045	neighborChanged	
+	m	(Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6707278;Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_3635204;)V	m_6252045	neighborUpdate	
 		c	Performs a block update. This method is called when a neighboring block has updated\n(i.e. placed, broken, or otherwise changed state).	
 		p	1		world	
 		p	2		pos	
@@ -177,7 +177,7 @@ c	net/minecraft/unmapped/C_3635204
 		p	3		state	
 		p	4		type	
 		p	5		data	
-	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6707278;Lnet/minecraft/unmapped/C_3635204;)V	m_6252045		neighborChanged
+	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6707278;Lnet/minecraft/unmapped/C_3635204;)V	m_6252045		neighborUpdate
 		c		Performs a block update. This method is called when a neighboring block has updated\n(i.e. placed, broken, or otherwise changed state).
 		p	1			state
 		p	2			world

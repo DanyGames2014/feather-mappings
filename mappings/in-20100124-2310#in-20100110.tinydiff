@@ -109,28 +109,28 @@ c	net/minecraft/unmapped/C_3635204
 	m	(F)Lnet/minecraft/unmapped/C_3635204;	m_8795806	setBlastResistance	
 		c	Sets this block's resistance.\n\n<p>\nNOTE: this method should only be used during the block's creation before it is registered.	
 		p	1		blastResistance	
-	m	(F)Lnet/minecraft/unmapped/C_3635204;	m_2068904	setStrength	
-		c	Sets this block's mining speed and updates its blast resistance if needed.\nA block's blast resistance cannot be less than 5 times its mining speed.\n\n<p>\nNOTE: this method should only be used during the block's creation before it is registered.	
-		p	1		strength	
-	m	(Lnet/minecraft/unmapped/C_3906126;IIILnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_0336319;)Lnet/minecraft/unmapped/C_5853518;	m_8972764	rayTrace	
+	m	(F)Lnet/minecraft/unmapped/C_3635204;	m_2068904	setHardness	
+		c	Sets this block's hardness and updates its blast resistance if needed.\nA block's blast resistance cannot be less than 5 times its hardness.\n\n<p>\nNOTE: this method should only be used during the block's creation before it is registered.	
+		p	1		hardness	
+	m	(Lnet/minecraft/unmapped/C_3906126;IIILnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_0336319;)Lnet/minecraft/unmapped/C_5853518;	m_8972764	raycast	
 		p	1		world	
 		p	2		x	
 		p	3		y	
 		p	4		z	
 		p	5		from	
 		p	6		to	
-	m	(Lnet/minecraft/unmapped/C_3906126;III)Z	m_0351269	canBePlaced	
+	m	(Lnet/minecraft/unmapped/C_3906126;III)Z	m_0351269	canPlaceAt	
 		p	1		world	
 		p	2		x	
 		p	3		y	
 		p	4		z	
-	m	(Lnet/minecraft/unmapped/C_3906126;IIILnet/minecraft/unmapped/C_5009044;)Z	m_2543653	use	
+	m	(Lnet/minecraft/unmapped/C_3906126;IIILnet/minecraft/unmapped/C_5009044;)Z	m_2543653	onUse	
 		p	1		world	
 		p	2		x	
 		p	3		y	
 		p	4		z	
 		p	5		player	
-	m	(Lnet/minecraft/unmapped/C_3906126;IIII)I	m_6954536	getSprite	
+	m	(Lnet/minecraft/unmapped/C_3906126;IIII)I	m_6954536	getTexture	
 		p	1		world	
 		p	2		x	
 		p	3		y	
@@ -138,7 +138,7 @@ c	net/minecraft/unmapped/C_3635204
 		p	5		face	
 	m	()F	m_2900574	getBlastResistance	
 	m	()Z	m_2999973		canExplode
-	m	(IIILnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_0336319;)Lnet/minecraft/unmapped/C_5853518;	m_8972764		rayTrace
+	m	(IIILnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_0336319;)Lnet/minecraft/unmapped/C_5853518;	m_8972764		raycast
 		p	1			x
 		p	2			y
 		p	3			z

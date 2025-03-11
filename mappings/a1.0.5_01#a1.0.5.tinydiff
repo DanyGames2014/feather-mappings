@@ -15,7 +15,7 @@ c	net/minecraft/unmapped/C_2012603	net/minecraft/network/packet/BlocksUpdatePack
 		p	1		p_1	
 	m	()I	m_3019759	m_3019759	
 c	net/minecraft/unmapped/C_3635204
-	m	(Lnet/minecraft/unmapped/C_3906126;IIII)V	m_7011942	afterMinedByPlayer	
+	m	(Lnet/minecraft/unmapped/C_3906126;IIII)V	m_7011942	afterBreak	
 		p	1		world	
 		p	2		x	
 		p	3		y	

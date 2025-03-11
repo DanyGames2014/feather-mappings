@@ -7,10 +7,10 @@ c	net/minecraft/unmapped/C_0559439
 c	net/minecraft/unmapped/C_3635204
 	f	Lnet/minecraft/unmapped/C_0559439;	f_7315821	LEAVES	
 	f	Lnet/minecraft/unmapped/C_3635204;	f_7315821		LEAVES
-	m	(IZ)Z	m_6275112	canRayTrace	
+	m	(IZ)Z	m_6275112	hasCollision	
 		p	1		metadata	
 		p	2		allowLiquids	
-	m	(Z)Z	m_6275112		canRayTrace
+	m	(Z)Z	m_6275112		hasCollision
 		p	1			allowLiquids
 c	net/minecraft/unmapped/C_4078372
 	m	(II[BDDDFFFIID)V	m_7924888	carveTunnels	

@@ -1596,11 +1596,11 @@ c	net/minecraft/unmapped/C_3571139
 		p	3			p_3
 c	net/minecraft/unmapped/C_3635204
 	f	Z	f_1450466	f_1450466	
-	f	Lnet/minecraft/unmapped/C_5307437;	f_2648035	sprite	
+	f	Lnet/minecraft/unmapped/C_5307437;	f_2648035	textureId	
 	f	Ljava/lang/String;	f_2481363	spriteName	
 	f	Lnet/minecraft/unmapped/C_9241136;	f_7603144	REGISTRY	
 	f	Lnet/minecraft/unmapped/C_1033240;	f_7603144		REGISTRY
-	m	(IZ)Z	m_6275112	canRayTrace	
+	m	(IZ)Z	m_6275112	hasCollision	
 		p	1		metadata	
 		p	2		allowLiquids	
 	m	(I)I	m_3974337	getDropItemMetadata	
@@ -1618,14 +1618,14 @@ c	net/minecraft/unmapped/C_3635204
 		p	3		fortuneLevel	
 	m	(I)Lnet/minecraft/unmapped/C_1160655;	m_3247759	getMapColor	
 		p	1		metadata	
-	m	(Lnet/minecraft/unmapped/C_2627205;Lnet/minecraft/unmapped/C_6707278;Lnet/minecraft/unmapped/C_3544601;)Lnet/minecraft/unmapped/C_5307437;	m_6954536	getSprite	
+	m	(Lnet/minecraft/unmapped/C_2627205;Lnet/minecraft/unmapped/C_6707278;Lnet/minecraft/unmapped/C_3544601;)Lnet/minecraft/unmapped/C_5307437;	m_6954536	getTexture	
 		p	1		world	
 		p	2		pos	
 		p	3		face	
-	m	(Lnet/minecraft/unmapped/C_3544601;I)Lnet/minecraft/unmapped/C_5307437;	m_5024410	getSprite	
+	m	(Lnet/minecraft/unmapped/C_3544601;I)Lnet/minecraft/unmapped/C_5307437;	m_5024410	getTexture	
 		p	1		face	
 		p	2		metadata	
-	m	(Lnet/minecraft/unmapped/C_3544601;)Lnet/minecraft/unmapped/C_5307437;	m_9597800	getSprite	
+	m	(Lnet/minecraft/unmapped/C_3544601;)Lnet/minecraft/unmapped/C_5307437;	m_9597800	getTexture	
 		p	1		face	
 	m	(Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6707278;Lnet/minecraft/unmapped/C_1414550;Ljava/util/List;Lnet/minecraft/unmapped/C_6385858;)V	m_1441794	addCollisions	
 		p	1		world	
@@ -1650,7 +1650,7 @@ c	net/minecraft/unmapped/C_3635204
 		p	1		world	
 		p	2		pos	
 		p	3		metadata	
-	m	(Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6707278;Lnet/minecraft/unmapped/C_3635204;)V	m_6252045	neighborChanged	
+	m	(Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6707278;Lnet/minecraft/unmapped/C_3635204;)V	m_6252045	neighborUpdate	
 		c	Performs a block update. This method is called when a neighboring block has updated\n(i.e. placed, broken, or otherwise changed state).	
 		p	1		world	
 		p	2		pos	
@@ -1674,7 +1674,7 @@ c	net/minecraft/unmapped/C_3635204
 		p	3		metadata	
 		p	4		luck	
 		p	5		fortuneLevel	
-	m	(Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6707278;Lnet/minecraft/unmapped/C_5009044;Lnet/minecraft/unmapped/C_3544601;FFF)Z	m_2543653	use	
+	m	(Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6707278;Lnet/minecraft/unmapped/C_5009044;Lnet/minecraft/unmapped/C_3544601;FFF)Z	m_2543653	onUse	
 		c	Handles a player interacting with this block, i.e. a player holding the <i>use</i> key\nwhile looking at this block.\n\n@return whether the interaction was consumed,\ni.e. whether further processing of the use action should be blocked.	
 		p	1		world	
 		p	2		pos	
@@ -1705,7 +1705,7 @@ c	net/minecraft/unmapped/C_3635204
 		p	1		world	
 		p	2		pos	
 		p	3		dir	
-	m	(Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_5009044;Lnet/minecraft/unmapped/C_6707278;I)V	m_7011942	afterMinedByPlayer	
+	m	(Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_5009044;Lnet/minecraft/unmapped/C_6707278;I)V	m_7011942	afterBreak	
 		p	1		world	
 		p	2		player	
 		p	3		pos	
@@ -1759,7 +1759,7 @@ c	net/minecraft/unmapped/C_3635204
 		p	1			world
 		p	2			pos
 		p	3			state
-	m	(Lnet/minecraft/unmapped/C_2441996;Z)Z	m_6275112		canRayTrace
+	m	(Lnet/minecraft/unmapped/C_2441996;Z)Z	m_6275112		hasCollision
 		p	1			state
 		p	2			allowLiquids
 	m	(Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6707278;Lnet/minecraft/unmapped/C_2441996;Ljava/util/Random;)V	m_7152477		randomTick
@@ -1783,7 +1783,7 @@ c	net/minecraft/unmapped/C_3635204
 		p	1			world
 		p	2			pos
 		p	3			state
-	m	(Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6707278;Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_3635204;)V	m_6252045		neighborChanged
+	m	(Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6707278;Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_3635204;)V	m_6252045		neighborUpdate
 		c		Performs a block update. This method is called when a neighboring block has updated\n(i.e. placed, broken, or otherwise changed state).
 		p	1			world
 		p	2			pos
@@ -1814,7 +1814,7 @@ c	net/minecraft/unmapped/C_3635204
 		p	5			fortuneLevel
 	m	(Lnet/minecraft/unmapped/C_2441996;)I	m_3974337		getDropItemMetadata
 		p	1			state
-	m	(Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6707278;Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_5009044;Lnet/minecraft/unmapped/C_3544601;FFF)Z	m_2543653		use
+	m	(Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6707278;Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_5009044;Lnet/minecraft/unmapped/C_3544601;FFF)Z	m_2543653		onUse
 		c		Handles a player interacting with this block, i.e. a player holding the <i>use</i> key\nwhile looking at this block.\n\n@return whether the interaction was consumed,\ni.e. whether further processing of the use action should be blocked.
 		p	1			world
 		p	2			pos
@@ -1854,7 +1854,7 @@ c	net/minecraft/unmapped/C_3635204
 		p	2			pos
 		p	3			state
 		p	4			dir
-	m	(Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_5009044;Lnet/minecraft/unmapped/C_6707278;Lnet/minecraft/unmapped/C_2441996;)V	m_7011942		afterMinedByPlayer
+	m	(Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_5009044;Lnet/minecraft/unmapped/C_6707278;Lnet/minecraft/unmapped/C_2441996;)V	m_7011942		afterBreak
 		p	1			world
 		p	2			player
 		p	3			pos

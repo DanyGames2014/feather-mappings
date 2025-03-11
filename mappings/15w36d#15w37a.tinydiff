@@ -593,7 +593,7 @@ c	net/minecraft/unmapped/C_3635204
 		p	4		maxX	
 		p	5		maxY	
 		p	6		maxZ	
-	m	()Z	m_1944525	isSolidRender	
+	m	()Z	m_1944525	isOpaque	
 	m	(Lnet/minecraft/unmapped/C_0336319;)Z	m_0588089	containsX	
 		p	1		pos	
 	m	(Lnet/minecraft/unmapped/C_0336319;)Z	m_0056167	containsY	
@@ -622,7 +622,7 @@ c	net/minecraft/unmapped/C_3635204
 	m	()Z	m_5533517	isSolid	
 	m	()F	m_2010082	getAmbientOcclusionLight	
 	m	()Z	m_6763563	blocksAmbientLight	
-	m	(Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6707278;)F	m_7976867	getMiningTime	
+	m	(Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6707278;)F	m_7976867	getHardness	
 		p	1		world	
 		p	2		pos	
 	m	(Lnet/minecraft/unmapped/C_2627205;Lnet/minecraft/unmapped/C_6707278;)I	m_4625738	getLightColor	
@@ -640,7 +640,7 @@ c	net/minecraft/unmapped/C_3635204
 		p	1		player	
 		p	2		world	
 		p	3		pos	
-	m	(Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6707278;Lnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_0336319;)Lnet/minecraft/unmapped/C_5853518;	m_8972764	rayTrace	
+	m	(Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6707278;Lnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_0336319;)Lnet/minecraft/unmapped/C_5853518;	m_8972764	raycast	
 		p	1		world	
 		p	2		pos	
 		p	3		start	
@@ -711,7 +711,7 @@ c	net/minecraft/unmapped/C_3635204
 		p	1			state
 	m	(Lnet/minecraft/unmapped/C_2441996;)Lnet/minecraft/unmapped/C_4345966;	m_0839636		getRenderType
 		p	1			state
-	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6707278;)F	m_7976867		getMiningTime
+	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6707278;)F	m_7976867		getHardness
 		p	1			state
 		p	2			world
 		p	3			pos
@@ -743,7 +743,7 @@ c	net/minecraft/unmapped/C_3635204
 		p	1			state
 		p	2			world
 		p	3			pos
-	m	(Lnet/minecraft/unmapped/C_2441996;)Z	m_1944525		isSolidRender
+	m	(Lnet/minecraft/unmapped/C_2441996;)Z	m_1944525		isOpaque
 		p	1			state
 	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6707278;Ljava/util/Random;)V	m_2144430		randomDisplayTick
 		c		Performs a random display tick. Random display ticks are mostly used to spawn particles\naround a block. The client does 1000 random display tick attempts within a radius of\n16 blocks of the player each tick.
@@ -757,7 +757,7 @@ c	net/minecraft/unmapped/C_3635204
 		p	2			player
 		p	3			world
 		p	4			pos
-	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6707278;Lnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_0336319;)Lnet/minecraft/unmapped/C_5853518;	m_8972764		rayTrace
+	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6707278;Lnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_0336319;)Lnet/minecraft/unmapped/C_5853518;	m_8972764		raycast
 		p	1			state
 		p	2			world
 		p	3			pos

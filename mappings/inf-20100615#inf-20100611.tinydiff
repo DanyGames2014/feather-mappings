@@ -25,7 +25,7 @@ c	net/minecraft/unmapped/C_2682589
 c	net/minecraft/unmapped/C_3050136
 	m	()Z	m_0439182	m_0439182	
 c	net/minecraft/unmapped/C_3635204
-	m	(Lnet/minecraft/unmapped/C_3906126;IIILnet/minecraft/unmapped/C_0336319;)V	m_3087004	applyMaterialDrag	
+	m	(Lnet/minecraft/unmapped/C_3906126;IIILnet/minecraft/unmapped/C_0336319;)V	m_3087004	applyVelocity	
 		p	1		world	
 		p	2		x	
 		p	3		y	
@@ -36,7 +36,7 @@ c	net/minecraft/unmapped/C_3635204
 		p	2		x	
 		p	3		y	
 		p	4		z	
-	m	(Z)Z	m_6275112	canRayTrace	
+	m	(Z)Z	m_6275112	hasCollision	
 		p	1		allowLiquids	
 c	net/minecraft/unmapped/C_3906126
 	m	(IIIII)Z	m_2111420	setBlockWithMetadata	

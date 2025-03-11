@@ -132,7 +132,7 @@ c	net/minecraft/unmapped/C_3050136
 c	net/minecraft/unmapped/C_3635204
 	f	Ljava/util/EnumMap;	f_9244610	f_9244610	
 	f	Ljava/util/Map;	f_9244610		f_9244610
-	m	()Ljava/lang/String;	m_0757767	getName	
+	m	()Ljava/lang/String;	m_0757767	getTranslatedName	
 	m	(Lnet/minecraft/unmapped/C_3635204;)I	m_1344846	getId	
 		p	0		block	
 	m	(Lnet/minecraft/unmapped/C_3635204;)Z	m_9214095	is	
@@ -140,16 +140,16 @@ c	net/minecraft/unmapped/C_3635204
 	m	(Lnet/minecraft/unmapped/C_3635204;Lnet/minecraft/unmapped/C_3635204;)Z	m_4091359	areEqual	
 		p	0		block1	
 		p	1		block2	
-	m	(Lnet/minecraft/unmapped/C_2441996;Z)Z	m_6275112	canRayTrace	
+	m	(Lnet/minecraft/unmapped/C_2441996;Z)Z	m_6275112	hasCollision	
 		p	1		state	
 		p	2		allowLiquids	
 	m	(Lnet/minecraft/unmapped/C_3635204;)Z	m_9831076	isAnvil	
 		p	0		block	
 	m	()Ljava/util/EnumMap;	m_9010686	m_9010686	
-	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_3030937;)Z	m_6275112		canRayTrace
+	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_3030937;)Z	m_6275112		hasCollision
 		p	1			p_1
 		p	2			p_2
-	m	()Lnet/minecraft/unmapped/C_9550253;	m_0757767		getName
+	m	()Lnet/minecraft/unmapped/C_9550253;	m_0757767		getTranslatedName
 	m	()Ljava/util/Map;	m_9010686		m_9010686
 c	net/minecraft/unmapped/C_3906126
 	f	Lnet/minecraft/unmapped/C_0814381;	f_5394744	scoreboard	

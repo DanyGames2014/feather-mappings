@@ -33,7 +33,7 @@ c	net/minecraft/unmapped/C_3635204
 		p	1		pos	
 	m	(Lnet/minecraft/unmapped/C_0336319;)Z	m_8050342	containsZ	
 		p	1		pos	
-	m	(IIILnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_0336319;)Lnet/minecraft/unmapped/C_5853518;	m_8972764	rayTrace	
+	m	(IIILnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_0336319;)Lnet/minecraft/unmapped/C_5853518;	m_8972764	raycast	
 		p	1		x	
 		p	2		y	
 		p	3		z	
